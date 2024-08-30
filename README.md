@@ -350,9 +350,6 @@ algorithms.
 <u>Performance Metrics of Multivariate Linea</u>r Regression (with
 chosen 6 features)
 
-<img src="./attachments/projectreadme/media/image14.png"
-style="width:3.28333in;height:0.51319in" />
-
 <table>
 <colgroup>
 <col style="width: 24%" />
@@ -424,17 +421,10 @@ style="width:3.28333in;height:0.51319in" />
 </tbody>
 </table>
 
-<img src="./attachments/projectreadme/media/image15.png"
-style="width:3.27014in;height:1.09028in" /><img src="./attachments/projectreadme/media/image16.png"
-style="width:3.27014in;height:1.09028in" />
-
 -   **Part B: Experiment 2 (Multivariate Linear Regression)**
 
 <u>Performance Metrics of Multivariate Linear Regressio</u>n (with all
 features except a few with object)
-
-<img src="./attachments/projectreadme/media/image8.png"
-style="width:3.28333in;height:0.51319in" />
 
 <table>
 <colgroup>
@@ -506,10 +496,6 @@ style="width:3.28333in;height:0.51319in" />
 </tr>
 </tbody>
 </table>
-
-<img src="./attachments/projectreadme/media/image15.png"
-style="width:3.27014in;height:1.09028in" /><img src="./attachments/projectreadme/media/image17.png"
-style="width:3.27014in;height:1.09028in" />
 
 - The difference between the RMSE scores of both experiments for all
     three sets is relatively small, and it suggests that the model is
