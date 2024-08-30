@@ -257,9 +257,6 @@ algorithms.
 <u>Performance Metrics of Univariate Linear Regression w</u>ith
 'PctPublicCoverageAlone' feature.
 
-<img src="./attachments/projectreadme/media/image11.png"
-style="width:3.38333in;height:0.51319in" />
-
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -331,29 +328,22 @@ style="width:3.38333in;height:0.51319in" />
 </tbody>
 </table>
 
-<img src="./attachments/projectreadme/media/image12.png"
-style="width:3.37014in;height:1.09028in" /><img src="./attachments/projectreadme/media/image13.png"
-style="width:3.37014in;height:1.09028in" />
-
-1.  As the difference between the RMSE scores for 3 sets of experiment 1
+-  As the difference between the RMSE scores for 3 sets of experiment 1
     is relatively small, it suggests that the model is performing
     consistently across the three sets and is not overfitting to the
     training data and this univariate linear regression model with a
     single 'incidenceRate' independent feature is generalizing well to
     new/unseen data.
 
-<!-- -->
 
-1.  The difference between the RMSE scores for 3 sets of experiment 2 is
+-  The difference between the RMSE scores for 3 sets of experiment 2 is
     small and it appears that the model's performance is decent but not
     ideal. Therefore, it appears relying solely on the
     'PctPublicCoverageAlone' independent feature is inadequate to make
     precise predictions about cancer mortality rates.
 
-    1.  The model from the first experiment performed consistently for
-        all the 3 sets and is generalised fairly to predict cancer
-        mortality rate, whereas the model from the second experiment is
-        sightly overfitting the training set.
+-  The model from the first experiment performed consistently for all the 3 sets and is generalised fairly to predict cancer mortality rate, whereas the model from the second experiment is sightly overfitting the training set.
+        
 
 -   **Part B: Experiment 1 (Multivariate Linear Regression)**
 
