@@ -511,29 +511,24 @@ style="width:3.28333in;height:0.51319in" />
 style="width:3.27014in;height:1.09028in" /><img src="./attachments/projectreadme/media/image17.png"
 style="width:3.27014in;height:1.09028in" />
 
-1.  The difference between the RMSE scores of both experiments for all
+- The difference between the RMSE scores of both experiments for all
     three sets is relatively small, and it suggests that the model is
     slightly overfitting to some extent on the training data as there be
     some datapoints that are specific, and the model couldn’t be enough
     generalised to predict unseen observation.
 
-<!-- -->
-
-1.  Moreover, the model from experiment 1 is performing slightly better
+- Moreover, the model from experiment 1 is performing slightly better
     than experiment 2, on the testing data compared to the training
     data. Therefore, it may appear that selecting multiple independent
     features based on correlation values shows relatively better
     performance suggesting a reasonable and informed selection of
     predictors than training a model with all continuous variables.
 
-<!-- -->
 
-1.  However, the models are not sufficiently generalized, and there are
+- However, the models are not sufficiently generalized, and there are
     still features with observations that are specific, so it is
-    necessary to adjust the model hyperparameters,
+    necessary to adjust the model hyperparameters, regularizing the model to reduce its specification and prevent overfitting based on business goals.
 
-> regularizing the model to reduce its specification and prevent
-> overfitting based on business goals.
 
 -   **Part C: Experiment 1 (Multivariate Lasso** **Linear Regression)**
 
@@ -564,28 +559,22 @@ Performance Metrics of KNN with 50 neighbours and Euclidean Distance.
 <img src="./attachments/projectreadme/media/image21.jpeg"
 style="width:4.05556in;height:1.61528in" />
 
-1.  The difference between the RMSE scores in comparison with
+- The difference between the RMSE scores in comparison with
     multivariate linear regression from part B informs that experiment 1
     with the Lasso algorithm and experiment 3 with the ElasticNet has
     slightly improved performance and are regularised to a small margin,
-    while the
+    while the other two experiments using Ridge and KNN with 50 neighbours and Euclidean Distance have only shown a negligible impact. And further testing with regularisation is essential to reduce the errors.
 
-> other two experiments using Ridge and KNN with 50 neighbours and
-> Euclidean Distance have only shown a negligible impact. And further
-> testing with regularisation is essential to reduce the errors.
-
-1.  The line charts from these experiments inform that some data points
+- The line charts from these experiments inform that some data points
     are distant from the line, which indicates a need for further
     analysis and validation of those observations. A different approach,
     such as manual intervention, may be necessary when predicting those
     data points.
 
-    1.  Therefore, to enhance the model’s ability to generalize, it is
-        significant to further consult businesses and understand those
-        observations, their accuracy and business perspectives and
-        benchmarks.
+- Therefore, to enhance the model’s ability to generalize, it is significant to further consult businesses and understand those observations, their accuracy and business perspectives and benchmarks.
+        
 
-**<u>Model Summary and Business Suggestions:</u>**
+## **<u>Model Summary and Business Suggestions:</u>**
 
 <img src="./attachments/projectreadme/media/image22.jpeg"
 style="width:6.13889in;height:2.8625in" />
@@ -593,15 +582,8 @@ style="width:6.13889in;height:2.8625in" />
 **Prerequisites**
 
 -   Python 3.7+
-
 -   Numpy
-
 -   Pandas
-
 -   scikit-learn
-
 -   Matplotlib
 
-<img src="./attachments/projectreadme/media/image23.png"
-style="width:3.44931in" /><img src="./attachments/projectreadme/media/image24.png"
-style="width:4.15972in" />
