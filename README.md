@@ -181,9 +181,6 @@ algorithms.
 <u>Performance Metrics of Univariate Linear Regression</u> with
 'incidence Rate' feature.
 
-<img src="./attachments/projectreadme/media/image8.png"
-style="width:3.28333in;height:0.51319in" />
-
 <table>
 <colgroup>
 <col style="width: 24%" />
@@ -254,10 +251,6 @@ style="width:3.28333in;height:0.51319in" />
 </tr>
 </tbody>
 </table>
-
-<img src="./attachments/projectreadme/media/image9.png"
-style="width:3.27014in;height:1.09306in" /><img src="./attachments/projectreadme/media/image10.png"
-style="width:3.27014in;height:1.09306in" />
 
 -   **Experiment: Part A - II (Univariate Linear Regression)**
 
