@@ -1,4 +1,4 @@
-## ** Machine Learning Data-Driven Insights: Predicting Cancer Mortality Rates Using Census Data in US Counties.**
+## **Machine Learning Data-Driven Insights: Predicting Cancer Mortality Rates Using Census Data in US Counties.**
 
 ### **<u>Project Overview</u>**
 
