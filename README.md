@@ -1,7 +1,6 @@
-Machine Learning Data-Driven Insights: Predicting Cancer Mortality Rates
-Using Census Data in US Counties
+## ** Machine Learning Data-Driven Insights: Predicting Cancer Mortality Rates Using Census Data in US Counties.**
 
-**<u>Project Overview</u>**
+### **<u>Project Overview</u>**
 
 This project aims to develop a regression model that predicts cancer
 mortality rates in counties across the United States using census data.
@@ -28,7 +27,7 @@ policymakers, and researchers to create better strategies for decreasing
 cancer mortality rates. Additionally, informed decision-making processes
 can be implemented to enhance health results and services.
 
-**<u>Business Problem</u>**
+### **<u>Business Problem</u>**
 
 The primary business problem is to build a (Supervised Machine Learning)
 Univariate/Multivariate Linear Regression model that can accurately
@@ -38,7 +37,7 @@ individual or multiple features that affect cancer mortality, providing
 insights that could be used for public health decision-making and
 resource allocation.
 
-**<u>Datasets</u>**
+### **<u>Datasets</u>**
 
 The dataset provided is consolidated from US census data and consists of
 33 features related to demography and medical information at the county
@@ -88,7 +87,7 @@ employment. The dataset is split into two parts:
 -   ...and other features related to education, employment, insurance
     coverage, race, and birth rates.
 
-**<u>Data Preparation</u>**
+## **<u>Data Preparation</u>**
 
 -   **Determining attributes types and Null values of features**
 
@@ -146,7 +145,7 @@ stored in ‘binnedInc1’ and ‘binnedInc2’.
 <img src="./attachments/projectreadme/media/image4.jpeg"
 style="width:6.26806in;height:1.86667in" />
 
-**<u>Modelling</u>**
+## **<u>Modelling</u>**
 
 <img src="./attachments/projectreadme/media/image5.jpeg"
 style="width:6.26806in;height:3.29861in" />
@@ -168,7 +167,7 @@ choice for all the experiments.
 <img src="./attachments/projectreadme/media/image6.jpeg"
 style="width:6.26806in;height:1.90694in" />
 
-**<u>Evaluation</u>**
+## **<u>Evaluation</u>**
 
 <img src="./attachments/projectreadme/media/image7.png"
 style="width:6.26806in;height:2.80833in" />
@@ -176,7 +175,7 @@ style="width:6.26806in;height:2.80833in" />
 Below are the Performance Metrics of the trained linear regression
 algorithms.
 
--   **Experiment: Part A - I (Univariate Linear Regression)**
+### -   **Experiment: Part A - I (Univariate Linear Regression)**
 
 <u>Performance Metrics of Univariate Linear Regression</u> with
 'incidence Rate' feature.
@@ -252,7 +251,7 @@ algorithms.
 </tbody>
 </table>
 
--   **Experiment: Part A - II (Univariate Linear Regression)**
+### -   **Experiment: Part A - II (Univariate Linear Regression)**
 
 <u>Performance Metrics of Univariate Linear Regression w</u>ith
 'PctPublicCoverageAlone' feature.
@@ -345,7 +344,7 @@ algorithms.
 -  The model from the first experiment performed consistently for all the 3 sets and is generalised fairly to predict cancer mortality rate, whereas the model from the second experiment is sightly overfitting the training set.
         
 
--   **Part B: Experiment 1 (Multivariate Linear Regression)**
+### -   **Part B: Experiment 1 (Multivariate Linear Regression)**
 
 <u>Performance Metrics of Multivariate Linea</u>r Regression (with
 chosen 6 features)
@@ -421,7 +420,7 @@ chosen 6 features)
 </tbody>
 </table>
 
--   **Part B: Experiment 2 (Multivariate Linear Regression)**
+### -   **Part B: Experiment 2 (Multivariate Linear Regression)**
 
 <u>Performance Metrics of Multivariate Linear Regressio</u>n (with all
 features except a few with object)
@@ -516,29 +515,28 @@ features except a few with object)
     necessary to adjust the model hyperparameters, regularizing the model to reduce its specification and prevent overfitting based on business goals.
 
 
--   **Part C: Experiment 1 (Multivariate Lasso** **Linear Regression)**
+### -   **Part C: Experiment 1 (Multivariate Lasso** **Linear Regression)**
 
 Performance Metrics of Lasso Linear Regression.
 
 <img src="./attachments/projectreadme/media/image18.jpeg"
 style="width:4.31458in;height:1.18125in" />
 
--   **Part C: Experiment 2 (Multivariate Ridge** **Linear Regression)**
+### -   **Part C: Experiment 2 (Multivariate Ridge** **Linear Regression)**
 
 Performance Metrics of Ridge Linear Regression.
 
 <img src="./attachments/projectreadme/media/image19.jpeg"
 style="width:4.13889in;height:1.61389in" />
 
--   **Part C**: **Experiment 3 (Multivariate Elasticnet Linear
-    Regression)**
+### -   **Part C**: **Experiment 3 (Multivariate Elasticnet Linear Regression)**
 
 Performance Metrics of Elasticnet Linear Regression.
 
 <img src="./attachments/projectreadme/media/image20.jpeg"
 style="width:3.94444in;height:1.61319in" />
 
--   **Part C: Experiment 4 (Multivariate KNN Linear Regression)**
+### -   **Part C: Experiment 4 (Multivariate KNN Linear Regression)**
 
 Performance Metrics of KNN with 50 neighbours and Euclidean Distance.
 
@@ -565,7 +563,7 @@ style="width:4.05556in;height:1.61528in" />
 <img src="./attachments/projectreadme/media/image22.jpeg"
 style="width:6.13889in;height:2.8625in" />
 
-**Prerequisites**
+### **Prerequisites**
 
 -   Python 3.7+
 -   Numpy
